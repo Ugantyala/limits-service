@@ -6,7 +6,7 @@ public class LimitConfiguration {
 	private int maximum;
 	
 	protected LimitConfiguration(){
-		
+		System.out.println("Umashankar");
 	}
 	public LimitConfiguration(int minimum, int maximum) {
 		super();

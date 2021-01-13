@@ -10,7 +10,7 @@ public class ConfigurationController {
 	@Autowired
 	ConfigurationService config;
 	
-	@GetMapping("limits")
+	@GetMapping("limit")
 	public LimitConfiguration getDetailsFromConfiguration(){
 	
 		return new LimitConfiguration(config.getMinimum(),config.getMaximum());
